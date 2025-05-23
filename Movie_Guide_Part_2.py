@@ -7,15 +7,7 @@ import os
 file_path = os.path.expanduser("~/movie_guide_data.txt")
 
 def initialize_movies_file():
-    if
-    
-    
-    
-    
-    
-    
-    
-    not os.path.exists(file_path):
+    if not os.path.exists(file_path):
         with open(file_path, "w") as file:
             file.write("Cat on a Hot Tin Roof\n")
             file.write("On the Waterfront\n")
